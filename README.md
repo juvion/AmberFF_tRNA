@@ -5,7 +5,7 @@
 
 These force field library files are generated for 14 modified residues that appear in yeast tRNA-Asp, tRNA-Phe, and tRNA-iMet, and they are: m1A, t6A, Ar(p), Cm, m5C, m7G, m22G, Gm, m1G, m2G, yW, m5U, D, Ψ, and three terminal 5’ phosphorylated residues: 5’ phosphate adenosine, 5’ phosphate guanosine, and 5’ phosphate uridine.
  
-The charges for the modified residues were derived from the RESP fitting procedure. The parameters were derived from AMBER parm99.dat and gaff.dat. Some parameters that were not found in parm99.dat and gaff.dat were adapted from Tim Meyer and David Case's tRNAPhe force field library file. 
+The charges for the modified residues were derived from the RESP fitting procedure. The parameters were derived from AMBER parm99.dat and gaff.dat. Some parameters that were not found in parm99.dat and gaff.dat were adapted from Tim Meyer and David Case's [tRNAPhe force field library file][1]. 
 
 **These parameters are suitable for the usage with the parm99 force field. So modify trna2.0.frcmod to other force fields if it is needed.**
  
@@ -46,3 +46,6 @@ leap.in example, load tRNA-asp (3TRA.db).
 > \> a = loadpdb 3TRA_leap.pdb  
 ...  
 ...  
+
+
+[1]: http://www.pharmacy.manchester.ac.uk/bryce/amber
