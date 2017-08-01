@@ -11,7 +11,7 @@ The charges for the modified residues were derived from the RESP fitting procedu
 
 **These parameters are suitable for the usage with the parm99 force field, so modify trna2.0.frcmod to other force fields if it is needed.**
  
-#### The files are:  
+### The files are:  
 * **.prepi files:**  
 These files are the library files for 5'-phosphate adenosine, 5'-phosphate guanosine, 5'-phosphate uridine and Ar(p), which have a terminal phosphate.   
 * **trna2.0.lib:**  
@@ -21,7 +21,7 @@ This is the file that holds all the derived parameters.
 
 
 
-#### How to use:  
+### How to use:  
 In this demo,  it uses Amber10, ff99, tRNA-Asp(PDB:3TRA)   
 
 
