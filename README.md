@@ -1,4 +1,5 @@
-# AmberFF_tRNA  
+# AmberFF_tRNA   
+
 **Amber force field parameters (based on Amber ff99) for tRNAs, which were derived and applied in a tRNA MD simulaiton study, and the work was published in [JCTC 2014](http://pubs.acs.org/doi/abs/10.1021/ct500107y)**  
 
 
@@ -22,6 +23,7 @@ This is the file that holds all the derived parameters.
 
 
 ####How to use:  
+
 In this demo,  it uses Amber10, ff99, tRNA-Asp(PDB:3TRA)   
 
 
@@ -49,5 +51,6 @@ leap.in example, load tRNA-asp (3TRA.db).
 ...  
 
 ###Cite the parameters:  
+
 Cite [this paper](http://pubs.acs.org/doi/abs/10.1021/ct500107y):
 > Xiaoju Zhang, Ross C. Walker, Eric M. Phizicky, and David H. Mathews, The influence of sequence and covalent modifications on yeast tRNA dynamics. *Journal of Chemical Theory and Computation* 2014.
